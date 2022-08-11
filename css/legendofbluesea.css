@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Kanit:wght@300;400&family=Oleo+Script+Swash+Caps&family=PT+Sans&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+/**********************main************/
+#main{
+  width: 100vw; height: 700vh; margin-top: 5rem;
+ /* background-image: linear-gradient(to bottom right, #00e5ff, #1200ff);*/
+}
+.episodeslistarea{
+  width: 100vw;
+  height: auto;
+}
+.ListComponentArea{
+  height: 7rem;
+  width: 100vw;
+    padding-top: .5rem;
+        padding-bottom: .5rem;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+/**********************listDesign start************/
+
+.ListComponentDesign{
+  height: 7rem;
+  width:96vw;
+  box-shadow: .03rem .03rem .1rem blue;
+ border-radius: .5rem;
+  display: flex;
+    overflow: hidden;
+
+}
+
+
+.leftposter{
+  height: 100%;
+  width: 35%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  
+}
+.rightinfo{
+  height: 100%;
+  width: 65%;
+}
+
+/****left part************/
+
+.posterdisplay{
+  height: 6rem;
+  width: 9rem;
+ /* background-image: url(/img/tlobs/thumnail/tlobsep1.jpg);*/
+  background-position: center;
+  background-size: cover;
+  border-radius: .3rem;
+}
+.episodetumnail{
+  height: 100%;
+  width: 100%;
+    border-radius: .3rem;
+
+}
+/****right part************/
+
+.titlearea{
+  height: 35%;
+  width: 100%;
+      padding-left: 1rem;
+font-family: 'PT Sans', sans-serif;
+  padding-bottom: .2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  display:flex;
+  align-items: center;
+}
+
+.timearea{
+  height: 20%;
+  font-family: 'Abel', sans-serif;
+  width: 100%;
+    padding-left: 1rem;
+
+}
+
+.bottonarea{
+  height: 40%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.leftbottonarea{
+  height: 100%;
+  width: 50%;
+  display: grid;
+  place-items: center;
+  
+}
+
+.rightbottonarea {
+  height: 100%;
+  width: 50%;
+  display: grid;
+  place-items: center;
+}
+
+
+
+
+
+a {
+  text-decoration: none;
+  height: 70%;
+  width: 70%;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(to bottom right,#AD71FF,#EA63FE);
+     border-radius: .3rem;
+     color: white; font-size: 1.2rem;
+     font-weight: 500;
+         box-shadow: .2rem .2rem .5rem #D48EEA;
+
+
+}
+a:hover {
+  background: linear-gradient(#AD71FF, #FFFDE6);
+  box-shadow: 2px 2px 3px blue;
+  text-shadow: 2px 0px 3px black;
+  cursor: pointer;
+}
+a {
+
+  height: 70%;
+  width: 70%;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(to bottom right,#AD71FF,#EA63FE);
+     border-radius: .3rem;
+     color: white; font-size: 1.2rem;
+     font-weight: 500;
+     box-shadow: .2rem .2rem .5rem #D48EEA;
+
+}
+a:hover{
+  background: linear-gradient(#AD71FF, #FFFDE6);
+  box-shadow: 2px 2px 3px blue;
+  text-shadow: 2px 0px 3px black;
+  cursor: pointer;
+}
+
+
+
